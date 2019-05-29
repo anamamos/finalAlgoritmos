@@ -8,8 +8,8 @@ class Jugador{
         this.ctrl=ctrl;
         this.arriba=arriba;
         this.abajo=abajo;
-        this.migue=this.app.loadImage("/src/img/migue.png");
-        this.venus=this.app.loadImage("/src/img/venus.png");
+        this.migue=this.app.loadImage("./finalAlgoritmos/src/img/migue.png");
+        this.venus=this.app.loadImage("./finalAlgoritmos/src/img/venus.png");
    
         
        
