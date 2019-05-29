@@ -27,20 +27,20 @@ class Logica{
      this.mova=setInterval(this.update,10);
            
      this.balon.iniciar();
-     this.fondo=this.app.loadImage("./finalAlgoritmos/src/img/fondo.png");
-     this.contador=this.app.loadImage("./finalAlgoritmos/src/img/cosito.png");
-     this.titulo= this.app.loadImage("./finalAlgoritmos/src/img/inicio.png");
-     this.instrucciones= this.app.loadImage("./finalAlgoritmos/src/img/instrucciones.png");
-     this.v1=this.app.loadImage("./finalAlgoritmos/src/img/jugador1v.png");
-     this.v2=this.app.loadImage("./finalAlgoritmos/src/img/jugador2v.png");
+     this.fondo=this.app.loadImage("./src/img/fondo.png");
+     this.contador=this.app.loadImage("./src/img/cosito.png");
+     this.titulo= this.app.loadImage("./src/img/inicio.png");
+     this.instrucciones= this.app.loadImage("./src/img/instrucciones.png");
+     this.v1=this.app.loadImage("./src/img/jugador1v.png");
+     this.v2=this.app.loadImage("./src/img/jugador2v.png");
 
     }
     preload(){
         this.balon.preload();
-        this.inicio= this.app.loadSound('./finalAlgoritmos/src/sound/inicio.mp3');
-        this.game = this.app.loadSound('./finalAlgoritmos/src/sound/game.mp3');
-        this.win1 = this.app.loadSound('./finalAlgoritmos/src/sound/miguewin.mp3');
-        this.win2 = this.app.loadSound('./finalAlgoritmos/src/sound/venuswin.mp3');
+        this.inicio= this.app.loadSound('./src/sound/inicio.mp3');
+        this.game = this.app.loadSound('./src/sound/game.mp3');
+        this.win1 = this.app.loadSound('./src/sound/miguewin.mp3');
+        this.win2 = this.app.loadSound('./src/sound/venuswin.mp3');
         this.inicio.setVolume(0.2);
         this.game.setVolume(0.1);
         this.win1.setVolume(0.1);
