@@ -28,7 +28,7 @@ class Balon{
  
         preload(){
 
-            this.pong= this.app.loadSound('/src/sound/pong.mp3');
+            this.pong= this.app.loadSound('./finalAlgoritmos/src/sound/pong.mp3');
         }
 
 
