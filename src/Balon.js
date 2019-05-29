@@ -16,12 +16,12 @@ class Balon{
        this.mover=this.mover.bind(this);   
        this.validar=this.validar.bind(this);
        setInterval(this.validar,10);
-       this.clr[0]=this.app.loadImage("/finalAlgoritmos/src/img/devede.png");
-       this.clr[1]=this.app.loadImage("/finalAlgoritmos/src/img/devede1.png");
-       this.clr[2]=this.app.loadImage("/finalAlgoritmos/src/img/devede2.png");
-       this.clr[3]=this.app.loadImage("/finalAlgoritmos/src/img/devede3.png");
-       this.clr[4]=this.app.loadImage("/finalAlgoritmos/src/img/devede4.png");
-       this.clr[5]=this.app.loadImage("/finalAlgoritmos/src/img/devede5.png");
+       this.clr[0]=this.app.loadImage("./finalAlgoritmos/src/img/devede.png");
+       this.clr[1]=this.app.loadImage("./finalAlgoritmos/src/img/devede1.png");
+       this.clr[2]=this.app.loadImage("./finalAlgoritmos/src/img/devede2.png");
+       this.clr[3]=this.app.loadImage("./finalAlgoritmos/src/img/devede3.png");
+       this.clr[4]=this.app.loadImage("./finalAlgoritmos/src/img/devede4.png");
+       this.clr[5]=this.app.loadImage("./finalAlgoritmos/src/img/devede5.png");
        
       
         }
